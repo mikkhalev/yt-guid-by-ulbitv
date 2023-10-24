@@ -1,0 +1,93 @@
+/* Reset and base styles  */
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    font-family: "Arial", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Links */
+
+a, a:link, a:visited  {
+    text-decoration: none;
+}
+
+a:hover  {
+    text-decoration: none;
+}
+
+/* Common */
+
+
+
+
+ul, ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+img, svg {
+    max-width: 100%;
+    height: auto;
+}
+
+address {
+    font-style: normal;
+}
+
+/* Form */
+
+
+
+label {
+    cursor: pointer;
+}
+
+legend {
+    display: block;
+}
+/* ------------------------------------- */
+html, body {
+    width: 100%;
+}
+body {
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #F2F3F4;
+}
+main {
+    display: flex;
+    flex-direction: column;
+}
+.box {
+    width: 100%;
+    margin-top: 50px;
+}
+.box-num {
+    text-transform: uppercase;
+    font-size: 45px;
+    font-family: "Arial Black", sans-serif;
+    min-width: 40px;
+}
+.box-content {
+    width: 100%;
+}
+.news-wrapper {
+    max-width: 900px;
+    margin: 50px auto 0 auto;
+}
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}

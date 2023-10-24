@@ -1,0 +1,28 @@
+.news-list-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.news-list-wrapper > div:nth-child(1) {
+    background: white;
+    border-radius: 36px;
+    padding: 45px 30px;
+}
+.news-bar {
+    width: 100%;
+    height: 60px;
+    background: aliceblue;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.news-bar > input {
+    height: 20px;
+    max-width: 150px;
+    padding: 0 6px;
+    font-size: 12px;
+    font-family: Arial, serif;
+}

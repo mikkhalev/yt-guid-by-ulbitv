@@ -1,0 +1,15 @@
+.content-wrapper {
+    background: white;
+    border-radius: 36px;
+    padding: 45px 30px;
+    width: 100%;
+    margin-top: 20px;
+}
+.comments {
+    margin-top: 40px;
+}
+.comment {
+    padding: 5px;
+    border: 3px solid darkgreen;
+    margin-top: 20px;
+}

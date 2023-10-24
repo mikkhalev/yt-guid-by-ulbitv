@@ -1,0 +1,13 @@
+.error-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.error-wrapper > h1 {
+    font-size: 70px;
+}
+.error-wrapper > span {
+    font-size: 40px;
+}

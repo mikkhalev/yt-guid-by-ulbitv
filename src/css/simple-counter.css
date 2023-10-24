@@ -1,0 +1,28 @@
+.simple-counter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    background: white;
+    border-radius: 34px;
+}
+.number {
+    font-family: "Arial Black", sans-serif;
+    font-size: 30px;
+    text-align: right;
+}
+.buttons-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.text-state {
+    border: 1px solid #000;
+    padding: 0 0 0 10px;
+    outline: none;
+}
+.simple-counter-box {
+    max-width: fit-content;
+    margin: 0 auto;
+}

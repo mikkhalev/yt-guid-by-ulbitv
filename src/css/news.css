@@ -1,0 +1,30 @@
+.news-header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.news-enter {
+    opacity: 0;
+    transform: translateX(-400px);
+}
+.news-enter-active {
+    opacity: 1;
+    transition: all 500ms ease-in;
+    transform: translateX(0px);
+}
+.news-exit {
+    opacity: 1;
+}
+.news-exit-active {
+    opacity: 0;
+    transform: translateX(-400px);
+    transition: all 500ms ease-in;
+}
+.news-list > div > p {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+    text-transform: uppercase;
+}

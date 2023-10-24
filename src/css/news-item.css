@@ -1,0 +1,11 @@
+.news-list-item {
+    padding: 5px;
+    border: 3px solid darkgreen;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.news-list-item > div {
+    width: 90%;
+}

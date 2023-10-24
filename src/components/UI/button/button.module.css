@@ -1,0 +1,28 @@
+.button {
+    font-family: Arial, serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    border: 1px solid darkgreen;
+    outline: none;
+    transition: 0.3s;
+    cursor: pointer;
+    border-radius: 0;
+    background: unset;
+    margin: auto 0;
+    padding: 5px 10px;
+    color: darkgreen;
+}
+.button:hover {
+    background: darkgreen;
+    color: white;
+}
+.button:disabled {
+    background: darkgreen;
+    color: white;
+    cursor: unset;
+}
+.active {
+    border: 1px solid darkgreen;
+    font-weight: 600;
+}

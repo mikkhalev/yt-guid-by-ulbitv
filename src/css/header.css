@@ -1,0 +1,29 @@
+header {
+    width: 100%;
+    height: 100px;
+    background: aliceblue;
+    text-align: center;
+    border-bottom: 2px solid #000;
+    margin-bottom: 50px;
+    display: flex;
+}
+.nav-wrapper {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.nav-item {
+    padding: 0 15px;
+    margin: auto 0;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    transition: 0.3s;
+}
+.nav-item:hover {
+    color: darkorange;
+}
+.nav-item:active {
+    color: darkorange;
+}
